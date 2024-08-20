@@ -7,6 +7,7 @@ for (let i = 0; i <= 0; i++) {
         console.log("Acceso confirmado");
         
 }  else{
+        alert("Este evento es para +18");
         console.log("Acceso denegado, no cumples con los requisitos");
         break;
     }
@@ -124,7 +125,7 @@ const datosPersonales = {
     NombreCompleto : nombreApellido,
     entradasVip: ingreso,
     entradasGenerales: ingreso2,
-    direccionCorreo: email,
+    mail: email,
     direcionCompleta: direccion,
     
 }
